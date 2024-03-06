@@ -11,7 +11,7 @@ categorySelect.addEventListener("change", function () {
     };
 
     fetch("getSubCategorias.php", fetchOptions)
-        .then((response) => response.json()) // Parse the response as JSON
+        .then((response) => response.json())
         .then((data) => {
             const subcategorySelect = document.getElementById("subcategoria");
 
@@ -27,7 +27,6 @@ categorySelect.addEventListener("change", function () {
             });
         })
         .catch((error) => {
-            // Log any errors
             console.error(error);
         });
 });

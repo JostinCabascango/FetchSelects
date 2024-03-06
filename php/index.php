@@ -2,13 +2,10 @@
 require_once "config.php";
 require_once "Database.php";
 
-// Create a new Database instance
 $db = new Database();
 
-// Fetch all categories
 $categorias = $db->getCategorias();
 
-// Generate options for the select dropdown
 function generateOptions($categorias)
 {
     $options = '';
