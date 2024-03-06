@@ -31,7 +31,7 @@ $options = generateOptions($categorias);
 </head>
 <body>
 <form action="getSubCategorias.php" method="post">
-    <select name="categoria" id="categoria">
+    <select name="categoria" id="categoriaId">
         <?php echo $options; ?>
     </select>
     <select name="subcategoria" id="subcategoria">

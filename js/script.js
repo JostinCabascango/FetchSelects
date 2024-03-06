@@ -18,7 +18,6 @@ categorySelect.addEventListener("change", function () {
             subcategorySelect.innerHTML = "";
 
             data.forEach(subcategory => {
-                // Create a new option element
                 const option = document.createElement('option');
 
                 option.value = subcategory.id;

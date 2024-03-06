@@ -3,7 +3,7 @@ require 'config.php';
 require 'Database.php';
 
 // Obtenemos el id de la categoría
-$categoriaId = $_POST['categoria'];
+$categoriaId = $_POST['categoriaId'];
 
 // Creamos una nueva instancia de la base de datos
 $db = new Database();
